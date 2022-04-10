@@ -1,0 +1,1384 @@
+:root{
+  --black:#24252D;
+  --pink:linear-gradient(93.8deg, #FF00AE 1.02%, #FF0066 92.85%);
+   --white: #ffffff;
+  --pink-light: #FF00AE;
+  --black-light: #202128;
+}
+
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li { 
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: #FF00AE;
+  font-family:'Raleway', 'Poppins';
+  margin: 0px;
+}
+
+/*-------------HEADER---------------------------------------------------------*/
+
+.header {
+  width: 100%;
+  height: 92px;
+  background-color: var(--black);
+  align-items: center;
+  display: flex;
+}
+
+
+.header__logo-img{
+  margin-left: 60px;
+}
+
+.header__logo {
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--white);
+  margin-left: 26px;
+  width: 100px;
+  text-align: center;
+}
+
+.header-form{
+  background: #1B1A21;
+  border-radius: 10px;
+  margin-left: 20px ;
+}
+input{
+  background: #1B1A21;
+  border: 1px solid  #1B1A21;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 18px;
+  width: 550px;
+  height: 20px;
+}
+
+.header-menu{
+  justify-content:space-around;
+  align-items:center;
+  margin: 30px;
+}
+ 
+.menu__link{
+  padding-right: 15px;
+  color:  var(--white);
+  margin-left: 16px;
+  }
+
+.header-menu :hover {
+  color: #98989e;
+  transition: 0.5s ease-out;
+  }
+
+  .header__button1{
+    background: var(--pink);
+    border-radius: 10px;
+    color: var(--white);
+    width: 119px;
+    height: 40px;
+    padding: 10px 30px;
+  }
+
+    .header__button2 {
+    color: var(--pink-light);
+    border-radius: 10px;
+    border: 1px solid var(--pink-light);
+    width: 119px;
+    height: 40px;
+    padding: 9px 29px;
+    margin-left: 16px;
+    }
+
+/*-----------MAIN-BLOCK-------------------------------------------------------*/
+
+.main-page {
+  width: 100%;
+  height: 643px;
+  background-color: var(--black) ;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--pink);
+  line-height: 170%;
+  margin: 0px 0px 0px 119px;
+  position: absolute;
+  width: 663px;
+  height: 169px;
+  margin-top: 100px;
+}
+
+.main-block__text {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--white);
+  line-height: 26px;
+  margin: 0px 0px 0px 119px;
+  position: absolute;
+  width: 521px;
+  height: 98px;
+  margin-top: 300px;
+}
+
+.main-block__buttons {
+  position: absolute;
+  left: 119px;
+  top: 510px;
+}
+
+
+.main-block__button1 {
+    color: var(--white);
+    border-radius: 10px;
+    background: var(--pink);
+    width: 119px;
+    height: 40px;
+    padding: 9px 30px;
+}
+
+.main-block__button2 {
+  color:var(--pink-light);
+  border-radius: 10px;
+  border: 1px solid var(--pink-light);
+  width: 119px;
+  height: 40px;
+  padding: 9px 29px;
+  margin-left: 16px;
+}
+
+.main-block__learn {
+  position: absolute;
+  width: 238px;
+  height: 21px;
+  left: 220px;
+  top: 588px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.main-block__svg {
+  position: absolute;
+  left: 100px;
+  top: 565px;
+  width: 68px;
+  height: 68px;
+}
+
+.main-block__photo1 {
+  position: absolute;
+  width: 227px;
+  height: 460px;
+  left: 686px;
+  top: 92px;
+}
+
+.main-block__photo2 {
+  position: absolute;
+  width: 227px;
+  height: 460px;
+  left: 918px;
+  top: 92px;
+}
+
+.main-block__ornaments {
+  position: absolute;
+  left: 700px;
+  right: 0px;
+  top: 100px;
+  bottom: 0px;
+}
+
+/*-----------PHOTO PAGE-------------------------------------------------------*/
+
+.page__photo {
+  width: 100%;
+  height: 500px;
+  background-color: var(--black) ;
+}
+
+.photo__title {
+position: absolute;
+margin-left: 619px;
+margin-right: 619px;
+width: 202px;
+height: 42px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.02em;
+
+background: var(--pink);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.photo__text {
+  position: absolute;
+  width: 518px;
+  height: 60px;
+  margin-left: 461px;
+  margin-right: 461px;
+  margin-top: 100px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.num1 {
+    position: absolute;
+    left: 16px;
+    top: 20px;
+  }
+
+.photo__item1 {
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 200px;
+  background: var(--black-light);
+  border-radius: 40px;
+  border: 1px;
+  width: 96px;
+  height: 96px;
+  padding: 55px 60px 120px;
+}
+
+.mark1{ 
+  position: absolute;
+  width: 25.31px;
+  height: 25.31px;
+  left: 129.69px;
+  top: 127.69px;
+}
+
+.item-photo__title1 {
+  width: 132px;
+  height: 21px;
+  position: absolute;
+  left: 48px;
+  top: 150px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.item-photo__text1 {
+  position: absolute;
+  left: 63px;
+  top: 185px;
+  width: 86px;
+  height: 21px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.num2 {
+  position: absolute;
+  left: 16px;
+  top: 20px;
+}
+
+.photo__item2 {
+  background: var(--black-light);
+  border-radius: 40px;
+  border: 1px;
+  width: 96px;
+  height: 96px;
+  padding: 55px 60px 120px;
+  position: absolute;
+  margin-left: 373px;
+  margin-top: 200px;
+}
+
+.mark2 {
+  position: absolute;
+  width: 25.31px;
+  height: 25.31px;
+  left: 129.69px;
+  top: 127.69px;
+}
+
+.item-photo__title2 { 
+  width: 132px;
+  height: 21px;
+  position: absolute;
+  left: 55px;
+  top: 150px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+  
+.item-photo__text2 {
+  position: absolute;
+  left: 65px;
+  top: 185px;
+  width: 86px;
+  height: 21px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.num3{
+  position: absolute;
+  left: 16px;
+  top: 20px;
+}
+
+.photo__item3{
+  background: var(--black-light);
+  border-radius: 40px;
+  border: 1px;
+  width: 96px;
+  height: 96px;
+  padding: 55px 60px 120px;
+  position: absolute;
+  margin-left: 620px;
+  margin-top: 200px;
+}
+
+.mark3{
+  position: absolute;
+  width: 25.31px;
+  height: 25.31px;
+  left: 129.69px;
+  top: 127.69px;
+}
+
+.item-photo__title3{
+  width: 154px;
+  height: 21px;
+  position: absolute;
+  left: 39px;
+  top: 150px;
+    
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+    
+.item-photo__text3 {
+  position: absolute;
+  left: 62px;
+  top: 185px;
+  width: 86px;
+  height: 21px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.num4 {
+  position: absolute;
+  left: 16px;
+  top: 20px;
+}
+
+.photo__item4 {
+  background: var(--black-light);
+  border-radius: 40px;
+  border: 1px;
+  width: 96px;
+  height: 96px;
+  padding: 55px 60px 120px;
+  position: absolute;
+  margin-left: 866px;
+  margin-top: 200px;
+}
+
+.mark4{
+  position: absolute;
+  width: 25.31px;
+  height: 25.31px;
+  left: 129.69px;
+  top: 127.69px;
+}
+
+.item-photo__title4 {
+  width: 132px;
+  height: 21px;
+  position: absolute;
+  left: 55px;
+  top: 150px;
+      
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.item-photo__text4 {
+  position: absolute;
+  left: 63px;
+  top: 185px;
+  width: 86px;
+  height: 21px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.num5 {
+  position: absolute;
+  left: 16px;
+  top: 20px;
+}
+
+.photo__item5 {
+  background: var(--black-light);
+  border-radius: 40px;
+  border: 1px;
+  width: 96px;
+  height: 96px;
+  padding: 55px 60px 120px;
+  position: absolute;
+  margin-left: 1112px;
+  margin-top: 200px;
+}
+
+.mark5{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 130px;
+  top: 128px;
+}
+
+.item-photo__title5 {
+  width: 132px;
+  height: 21px;
+  position: absolute;
+  left: 48px;
+  top: 150px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+        
+.item-photo__text5  {
+  position: absolute;
+  left: 63px;
+  top: 185px;
+  width: 86px;
+  height: 21px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+    /*----------GAME PAGE-----------------------------------------------------*/
+        
+.game__page{
+  width: 100%;
+  height: 1311px;
+  background-color: var(--black) ;
+}
+
+.game__title{
+  position: absolute;
+  margin-left: 644px;
+  margin-right: 66px;
+  margin-top: 70px;
+  width: 202px;
+  height: 42px;
+      
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+      
+  background: var(--pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+      
+.game__text {
+  position: absolute;
+  width: 634px;
+  height: 60px;
+  margin-left: 400px;
+  margin-top: 140px;
+      
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+      
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.games__item1{
+  background: var(--black-light);
+  border-radius: 40px;
+  position: absolute;
+  width: 275px;
+  height: 428px;
+  left: 120px;
+  top: 1490px;
+}
+
+.games1 {
+  position: absolute;
+  width: 220px;
+  height: 288px;
+  left: 30px;
+  top: 20px;
+   border-radius: 40px;
+}
+
+.item-games__title1 {
+  position: absolute;
+  width: 105px;
+  height: 24px;
+  left: 23px;
+  top: 302px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.item-games__text1 {
+  position: absolute;
+  height: 19px;
+  left: 27px;
+  top: 335px;
+  width: 86px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.games-1-1 {
+  position: absolute;
+  left: 140px;
+  top: 304px;
+}
+
+.games__item2{
+  background: var(--black-light);
+  border-radius: 40px;
+  position: absolute;
+  width: 275px;
+   height: 428px;
+  left: 428px;
+  top: 1490px;
+}
+
+.games2 {
+  position: absolute;
+  width: 220px;
+  height: 288px;
+  left: 30px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.item-games__title2 {
+  position: absolute;
+  width: 106px;
+  height: 24px;
+  left: 38px;
+  top: 302px;
+        
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+ }
+
+.item-games__text2 {
+  position: absolute;
+  height: 19px;
+  left: 33px;
+  top: 335px;
+  width: 86px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.games-1-2 {
+  position: absolute;
+  left: 163px;
+  top: 304px;
+}
+
+.games__item3{
+  background: var(--black-light);
+  border-radius: 40px;
+  position: absolute;
+  width: 275px;
+  height: 428px;
+  right: 429px;
+  top: 1490px;
+}
+
+.games3 {
+  position: absolute;
+  width: 220px;
+  height: 288px;
+  left: 30px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.item-games__title3 {
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 38px;
+  top: 302px;
+  font-family: 'Raleway';
+  font-style: normal;
+   font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.item-games__text3 {
+  position: absolute;
+  height: 19px;
+  left: 33px;
+  top: 335px;
+  width: 86px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white)
+}
+
+.games-1-3 {
+  position: absolute;
+  left: 183px;
+  top: 304px;
+ }
+
+.games__item4 {
+  background: var(--black-light);
+  border-radius: 40px;
+  position: absolute;
+  width: 275px;
+  height: 428px;
+  left: 1045px;
+  top: 1490px;
+}
+
+.games4 {
+  position: absolute;
+  width: 220px;
+  height: 288px;
+  left: 30px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.item-games__title4 {
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 38px;
+  top: 302px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+   letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.item-games__text4 {
+  position: absolute;
+  height: 19px;
+  left: 33px;
+  top: 335px;
+  width: 86px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.games__item5 {
+  background: var(--black-light);
+  border-radius: 40px;
+  position: absolute;
+  width: 275px;
+  height: 428px;
+  left: 120px;
+  top: 1960px;
+ }
+
+.games5 {
+  position: absolute;
+  width: 220px;
+  height: 288px;
+  left: 30px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.item-games__title5 {
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 38px;
+  top: 302px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.item-games__text5 {
+  position: absolute;
+  height: 19px;
+  left: 33px;
+  top: 335px;
+  width: 86px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.games__item6 {
+  background: var(--black-light);
+  border-radius: 40px;
+  position: absolute;
+  width: 275px;
+  height: 428px;
+  left: 430px;
+  top: 1960px;
+}
+
+.games6 {
+  position: absolute;
+  width: 220px;
+  height: 288px;
+  left: 30px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.item-games__title6 {
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 38px;
+  top: 302px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+ .item-games__text6{
+  position: absolute;
+  height: 19px;
+  left: 33px;
+  top: 335px;
+  width: 86px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.games__item7 {
+  background:var(--black-light);
+  border-radius: 40px;
+  position: absolute;
+  width: 275px;
+  height: 428px;
+  right: 429px;
+  top: 1960px;
+}
+
+ .games7 {
+  position: absolute;
+  width: 220px;
+  height: 288px;
+  left: 30px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.item-games__title7 {
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 38px;
+  top: 302px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.item-games__text7 {
+  position: absolute;
+  height: 19px;
+  left: 33px;
+  top: 335px;
+  width: 86px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.games__item8{
+  background: var(--black-light);
+  border-radius: 40px;
+  position: absolute;
+  width: 275px;
+  height: 428px;
+  left: 1045px;
+  top: 1960px;
+}
+
+.games8 {
+  position: absolute;
+  width: 220px;
+  height: 288px;
+  left: 30px;
+  top: 20px;
+  border-radius: 40px;
+}
+
+.item-games__title8 {
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 38px;
+  top: 302px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+ .item-games__text8 {
+  position: absolute;
+  height: 19px;
+  left: 33px;
+  top: 335px;
+  width: 86px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.games-2-1 {
+  position: absolute;
+  left: 140px;
+  top: 304px;
+}
+
+.games-2-2 {
+  position: absolute;
+  left: 163px;
+  top: 304px;
+ }
+.games-2-3 {
+  position: absolute;
+  left: 183px;
+  top: 304px;
+}
+
+.games-3-1 {
+  position: absolute;
+  left: 140px;
+  top: 304px;
+}
+
+.games-3-2 {
+  position: absolute;
+  left: 163px;
+  top: 304px;
+}
+
+ .games-3-3 {
+  position: absolute;
+  left: 183px;
+  top: 304px;
+}
+
+.games-4-1 {
+  position: absolute;
+  left: 140px;
+  top: 304px;
+}
+
+.games-4-2 {
+  position: absolute;
+  left: 163px;
+  top: 304px;
+}
+
+.games-4-3 {
+  position: absolute;
+  left: 183px;
+  top: 304px;
+}
+
+.games-5-1 {
+  position: absolute;
+  left: 140px;
+  top: 304px;
+}
+
+.games-5-2 {
+  position: absolute;
+  left: 163px;
+  top: 304px;
+}
+
+.games-5-3 {
+  position: absolute;
+  left: 183px;
+  top: 304px;
+}
+
+.games-6-1 {
+  position: absolute;
+  left: 140px;
+  top: 304px;
+}
+
+.games-6-2 {
+  position: absolute;
+  left: 163px;
+  top: 304px;
+}
+
+.games-6-3 {
+  position: absolute;
+  left: 183px;
+  top: 304px;
+}
+
+.games-7-1 {
+  position: absolute;
+  left: 140px;
+  top: 304px;
+}
+
+.games-7-2 {
+  position: absolute;
+  left: 163px;
+  top: 304px;
+}
+
+.games-7-3 {
+  position: absolute;
+  left: 183px;
+  top: 304px;
+}
+
+.games-8-1 {
+  position: absolute;
+  left: 140px;
+  top: 304px;
+}
+
+.games-8-2 {
+  position: absolute;
+  left: 163px;
+  top: 304px;
+}
+
+.games-8-3 {
+  position: absolute;
+  left: 183px;
+  top: 304px;
+}
+
+.games_button{
+  color:var(--pink-light);
+  border-radius: 10px;
+  border: 1px solid var(--pink-light);
+  position: absolute;
+  width: 358px;
+  height: 52px;
+  margin-top: 1200px;;
+  margin-left: 560px;
+  display: flex;
+  align-items:center;
+  text-align: center;
+  justify-content: center;
+}
+
+.games_button1{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: var(--pink-light);
+}
+
+ /*-------------FOOTER--------------------------------------------------------*/
+footer {
+  background-color:var(--black);
+  width: 100%;
+  height: 374px;
+} 
+
+.footer__logo {
+  position: absolute;
+  width: 96px;
+  height: 21px;
+  left: 172px;
+  top: 59px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.footer_text{
+  position: absolute;
+  width: 287.24px;
+  height: 24px;
+  margin-left: 120px;
+  margin-top: 325px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.footer__logo-img{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 119px;
+  top: 2630px;
+}
+
+.footer__logo {
+  position: absolute;
+  left: 172px;
+  top: 2636px;
+  width: 90px;
+  height: 21px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+
+.form__footer {
+  background: var(--black-light);
+  border-radius: 10px;
+  position: absolute;
+  width: 283px;
+  height: 40px;
+  left: 120px;
+  top: 176px;
+}
+
+.column1 {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  left: 634px;
+  top: 2606px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--white);
+}
+
+.column2 {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  left: 898px;
+  top: 2606px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--white);
+}
+
+.column3 {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  left: 1162px;
+  top: 2606px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--white);
+}
+
+.form__footer {
+  position: absolute;
+  width: 283px;
+  height: 16px;
+  left: 120px;
+  top: 2700px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  background: var(--black-light);
+  border: 1px solid  var(--black-light);
+  border-radius: 10px ;
+}
+
+ .EmailMe {
+  color: var(--white);
+  border-radius: 10px;
+  background: var(--pink);
+  border: 1px solid var(--pink-light);
+  position: absolute;
+  width: 118px;
+  height: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items:center;
+  text-align: center;
+  justify-content: center;
+  top: 2700px;
+  left: 359px;
+}
+
+.social1 {
+  width: 28px;
+  height: 25px;
+  position: absolute;
+  margin-left: 1146px;
+  margin-top: 325px;
+}
+
+.social2 {
+  position: absolute;
+  margin-left: 1195px;
+  margin-top: 325px;
+  width: 28px;
+  height: 25px;
+}
+
+.social3 {
+  position: absolute;
+  margin-left: 1240px;
+  margin-top: 325px;
+  width: 27px;
+  height: 25px;
+}
+
+.social4 {
+  position: absolute;
+  margin-left: 1285px;
+  margin-top: 325px;
+  width: 27px;
+  height: 25px;
+ }
+ 
